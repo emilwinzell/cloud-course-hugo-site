@@ -7,9 +7,4 @@ draft: false
 
 ### This is post number 1
 
-Other good posts:
-
-* 1
-* 2
-* 3
-* 4
+this should auto-deploy
