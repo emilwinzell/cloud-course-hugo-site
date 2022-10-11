@@ -1,0 +1,9 @@
+baseURL = "http://hugo-hink-moln-kurs.s3-website.eu-north-1.amazonaws.com/"
+languageCode = "en-us"
+title = "Continuous Delivery Pipeline w. Hugo"
+theme = "ananke"
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "awsbucket"
+URL = "s3://hugo-hink-moln-kurs/?region=eu-north-1" #your bucket here
